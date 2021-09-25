@@ -51,7 +51,7 @@
 #link-name, #link-name1 {
     list-style-type: none;
     float: left;
-    margin-top: 35px;
+    margin-top: 20px;
     font-size: 20px;
     text-decoration: none;
     padding-left: 60px;
@@ -209,6 +209,7 @@
     width: 1200px;
     height: 80px;
     margin: auto;
+    background: #C6C6F4;
     font-family: 'Red Hat Display', sans-serif;
 }
 
@@ -343,7 +344,354 @@
     width: 1200px;
     height: 20px;
     margin: auto;
+    background: #718CD1;
     text-align: center;
     font-family: 'Red Hat Display', sans-serif;
 }
 /* Footer End */
+
+@media screen and (max-width: 360px){
+    
+    #page-background{
+        min-width: 100%;
+        min-height: 2620px;
+        float: left;
+        /* background: red; */
+    }
+    
+    #page-background1{
+        min-width:360px;
+        min-height: 2620px;
+        margin: auto;
+        /* background: green; */
+    }
+    
+    /* Header Start */
+    
+    #navigation-bar{
+        width: 360px;
+        height: 200px;
+        float: left;
+        /* background: blueviolet; */
+    }
+    
+    #site-name{
+        width: 200px;
+        height: 50px;
+        float: left;
+        font-size: 40px;
+        margin-top: 20px;
+        margin-left: 80px;
+        font-family: 'Rum Raisin', sans-serif;
+        color: #4C4F90;
+        /* background: blue; */
+    }
+    
+    #nav-bar{
+        width: 180px;
+        min-height: 140px;
+        /* margin-left: 100px; */
+        /* background: red; */
+        /* position: absolute; */
+    }
+
+    #link-name, #link-name1 {
+        list-style-type: none;
+        float: left;
+        margin-top: 5px;
+        font-size: 15px;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    #link-name1 {
+        color: #1E48DF;
+    }
+    
+    /* Header End */
+
+    /*page content start*/
+    #page-content{
+        min-width: 360px;
+        min-height: 1250px;
+        float: left;
+        /* background: yellow; */
+    }
+
+    #home-box{
+        width: 200px;
+        height: 600px;
+        border-radius: 20px;
+        margin-left: 20px;
+        padding: 2% 5%;
+        font-family: 'Red Hat Display', sans-serif;
+        background: #C4C4C4;
+        justify-content: center;
+    }
+
+    #description{
+        width: 200px;
+        height: 280px;
+        /* background: red; */
+    }
+
+    #animal-image{
+        width: 360px;
+        height: 290px;
+        /* background: red; */
+    }
+
+    #dog1{
+        width: 160px;
+        height: 100px;
+        padding: 30px 5px;
+        margin-left: 6px;
+        float: left;
+        /* background: blue; */
+    }
+
+    #tiger1{
+        width: 160px;
+        height: 100px;
+        padding: 30px 11px;
+        float: left;
+    }
+
+    #bird1-1{
+        width: 160px;
+        height: 100px;
+        padding: 1px 10px;
+        float: left;
+    }
+
+    #bird2-1{
+        width: 160px;
+        height: 100px;
+        padding: 1px 10px;
+        float: left;
+    }
+
+    #reviews-box{
+        width: 340px;
+        height: 50px;
+        background: #C4C4C4;
+        float: left;
+        border-radius: 10px;
+        margin-left: 10px;
+        font-family: 'Red Hat Display', sans-serif;
+    }
+
+    #reviews-name{
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 40px;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    #reviews-content-part1{
+        width: 295px;
+        height: 650px;
+        font-family: 'Red Hat Display', sans-serif;
+        background: #cac8c8;
+        border-radius: 20px;
+        margin-top: 40px;
+        float: left;
+        position: absolute;
+        margin: 50px 30px;
+    }
+
+    #part1-image{
+        width: 150px;
+        margin-top: 30px;
+        margin-left: 60px;
+        float: left;
+    }
+
+    #part1-content{
+        width: 240px;
+        height: 250px;
+        margin-left: 30px;
+        line-height: 30px;
+        float: left;
+        /* background: yellow; */
+    }
+
+    #reviews-content-part2{
+        width: 295px;
+        height: 710px;
+        font-family: 'Red Hat Display', sans-serif;
+        background: #cac8c8;
+        border-radius: 20px;
+        position: absolute;
+        margin: 720px 30px;
+    }
+
+    #part2-image{
+        width: 150px;
+        margin-left: 30px;
+        margin-left: 60px;
+        float: left;
+    }
+
+    #part2-content{
+        width: 240px;
+        height: 250px;
+        margin-top: 30px;
+        margin-left: 30px;
+        line-height: 30px;
+        float: left;
+        /* background: yellow; */
+    }
+
+    /*page content ends*/
+
+    /* Footer Start */
+    #footer-outer{
+        width: 100%;
+        height: 270px;
+        background: #C6C6F4;
+        float: left;
+    }
+
+    #footer-outer1{
+        width: 360px;
+        height: 270px;
+        margin: auto;
+        background: #C6C6F4;
+        font-family: 'Red Hat Display', sans-serif;
+    }
+
+    #section1{
+        max-width: 250px;
+        height: 250px;
+        float: left;
+        margin-top: 10px;
+        margin-left: 50px;
+        /* background: red; */
+    }
+
+    #part1, #part2{
+        float: left;
+        /* margin-left: 50px; */
+        margin-right: 50px;
+    }
+
+    #part3{
+        float: left;
+    }
+
+    #pic1{
+        border-radius: 20px;
+        float: left;
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+
+    #vertical-row{
+        display: none;
+    }
+
+    #email-footer{
+        width: 250px;
+        height: 40px;
+        margin-right: 40px;
+        margin-top: 10px;
+        margin-left: 30px;
+        margin-bottom: 10px;
+        float: left;
+        /* background: green; */
+    }
+
+    #vertical-row1{
+        display: none;
+    }
+
+    #join{
+        margin-left: 70px;
+        font-size: 20px;
+        font-weight: 900;
+    }
+
+    #social{
+        width:165px;
+        height:100px;
+        font-family:Maiandra GD;
+        font-size:15px;
+        float:left;
+        /* margin-left: 50px; */
+        /* background:yellow; */
+    }
+
+    #facebook{
+        width:50px;
+        height:50px;
+        float:left;
+        margin-left:5px;
+        /* margin-top:10px; */
+    }
+
+    #youtube{
+        width:50px;
+        height:50px;
+        float:left;
+        margin-left:5px;
+    }
+
+    #pinterest{
+        width:50px;
+        height:50px;
+        float:left;
+        margin-left:5px;
+        margin-top:5px;
+        /* margin-top:7px; */
+    }
+
+    #twitter{
+        width:50px;
+        height:50px;
+        float:left;
+        margin-left:20px;
+        /* margin-top:7px; */
+    }
+
+    #instagram{
+        width:50px;
+        height:50px;
+        float:left;
+        margin-left:20px;
+        /* margin-top:5px; */
+    }
+
+    #link1{
+        text-decoration:none;
+        color:black;
+    }
+
+    #link1:hover{
+        color:#a6b1b9;
+    }
+
+    #section1{
+        width: 1200px;
+    }
+
+    /* Copyright background start */
+
+    #copyright-background{
+        width: 100%;
+        height: 20px;
+        background: #718CD1;
+        float: left;
+    }
+
+    #copyright-background1{
+        width: 360px;
+        height: 20px;
+        margin: auto;
+        background: #718CD1;
+        text-align: center;
+        font-family: 'Red Hat Display', sans-serif;
+    }
+    /* Footer End */
+
+    }

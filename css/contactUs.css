@@ -107,29 +107,45 @@
     width: 300px;
     border-radius: 20px;
     position: absolute;
-    margin: 100px 10px;
+    margin: 100px 60px;
     border: 5px solid white ;
 }
 
-
-
-/* #a3-image{
-    width: 300px;
+#contact-form{
+    width: 600px;
+    height: 500px;
     border-radius: 20px;
-    position: absolute;
-    margin: 200px 750px;
-    border: 5px solid white ;
-} */
-
-#about-us-third-part{
-    width: 290px;
-    font-family: 'Red Hat Display', sans-serif;
-    font-size: 20px;
-    margin-left: 50px;
-    margin-top: 20px;
+    margin: 70px 520px;
+    background: #C4C4C4;
     position: absolute;
 }
 
+#contact-form h2{
+    text-align: center;
+    margin-top: 15px;
+}
+
+#form{
+    padding: 60px;
+}
+
+input[type=text],[type=tel],[type=email]{
+    width: 100%;
+    border: none;
+    margin: 6px 0;
+    padding: 12px 10px;
+}
+
+button{
+    background-color: #2B7BB5;
+    color: #000;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 8px 6px;
+
+}
 /* Page Content End */
 
 /* Footer Start */

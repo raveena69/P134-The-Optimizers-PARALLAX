@@ -10,7 +10,7 @@
     width: 100%;
     height: 950px;
     float: left;
-    /* background: red; */
+    /* background: yellow; */
 }
 
 #page-background1{
@@ -71,8 +71,6 @@
 
 /* Page Content Start */
 
-/*pet gallery view css*/
-
 #page-content{
     width: 1200px;
     height: 730px;
@@ -111,7 +109,7 @@ body{
     float: left;
 }
 
-#img1{
+#pet1{
     width: 370px;
     height: 370px;
     float: left;
@@ -119,7 +117,6 @@ body{
     object-position: center;
 }
 
-/*pet gallery view ends*/
 /* Page Content End */
 
 /* Footer Start */

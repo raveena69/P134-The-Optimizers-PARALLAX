@@ -8,14 +8,14 @@
 
 #page-background{
     width: 100%;
-    height: 1510px;
+    height: 1340px;
     float: left;
-    /* background: red; */
+    /* background: yellow; */
 }
 
 #page-background1{
     width:1200px;
-    height: 1510px;
+    height: 1340px;
     margin: auto;
     /* background: green; */
 }
@@ -73,16 +73,16 @@
 
 #page-content{
     width: 1200px;
-    height: 1430px;
+    height: 1250px;
     float: left;
     /* background: red; */
 }
 
 #first-box{
-    width: 800px;
-    height: 250px;
+    width: 780px;
+    height: 290px;
     border-radius: 20px;
-    margin-left: 50px;
+    margin-left: 70px;
     padding: 1% 2%;
     background: #C4C4C4;
 }
@@ -95,27 +95,30 @@
 }
 
 #contact-us-first-part{
-    width: 750px;
+    width: 650px;
+    height: 230px;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 20px;
-    margin-left: 50px;
+    margin-left: 100px;
     margin-top: 60px;
     position: absolute;
+    /* background: red; */
 }
 
 #a3-image{
-    width: 300px;
+    width: 400px;
+    height: 700px;
     border-radius: 20px;
     position: absolute;
-    margin: 100px 60px;
+    margin: 200px 60px;
     border: 5px solid white ;
 }
 
 #contact-form{
-    width: 600px;
-    height: 500px;
+    width: 550px;
+    height: 650px;
     border-radius: 20px;
-    margin: 70px 520px;
+    margin: 30px 520px;
     background: #C4C4C4;
     position: absolute;
 }
@@ -125,8 +128,17 @@
     margin-top: 15px;
 }
 
+label{
+    font-family: 'Red Hat Display', sans-serif;;
+}
+
 #form{
     padding: 60px;
+}
+
+#fullname, #email, #phone, #subject, #msg{
+    background: none;
+    border-bottom: 1px solid black;
 }
 
 input[type=text],[type=tel],[type=email]{
@@ -138,13 +150,17 @@ input[type=text],[type=tel],[type=email]{
 
 button{
     background-color: #2B7BB5;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
     color: #000;
-    width: 20%;
+    width: 40%;
     display: flex;
     justify-content: center;
     margin: auto;
     padding: 8px 6px;
-
+    font-size: 20px;
+    border-radius: 10px;
+    border-style: none;
 }
 /* Page Content End */
 
